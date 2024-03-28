@@ -1,4 +1,4 @@
-#include "binary_trees_t"
+#include "binary_trees.h"
 /**
  * binary_tree_delete - I used this function to delete the wholde bi tree
  * @tree: this is the pointer to the root node of the bi tree
