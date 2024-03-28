@@ -1,4 +1,4 @@
-#include "binary_tree.h"
+#include "binary_trees.h"
 /**
  * binary_tree_is_root - I used this func to know if the node is a root or not
  * @node: pointer to the node to be checked.
