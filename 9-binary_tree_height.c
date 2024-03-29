@@ -1,9 +1,8 @@
-#include "binary_tress.h"
+#include "binary_trees.h"
 /**
  * binary_tree_height - I used this function to get the height of the bi tree.
  * @tree: the is a ptr to the root nd.
- * Return: This function returns and integer
- * which represents the height.
+ * Return: This function returns and integer which represents the height.
 */
 size_t binary_tree_height(const binary_tree_t *tree)
 {
@@ -11,7 +10,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 	size_t r_hei = 0;
 
 	if (tree == NULL)
-		return;
+		return (0);
 	if (tree->left != NULL)
 	{
 		l_hei += binary_tree_height(tree->left);
